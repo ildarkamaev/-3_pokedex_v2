@@ -1,0 +1,27 @@
+.card {
+        border-radius: .2rem;
+        
+        box-shadow: 0 0 3px 0px;
+        padding-bottom: 1rem;
+        .card-title{
+          text-transform: uppercase;
+          h2{
+            margin: 0;
+          }
+          padding-left: 1rem;
+        }
+
+        .card-subtitle{
+          color: $clr-text-grey;
+          padding: .5rem 0rem .5rem 1rem;
+        }
+
+   
+
+        .card-image{
+          border-top-left-radius: .2rem;
+          border-top-right-radius: .2rem;
+          background: $clr-bg-grey;
+          width: 100%;
+          height: auto;
+        }

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Rubik+Mono+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #eeeff1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  body main {
+    width: calc(100vw - 8rem);
+    background: #fdfff7;
+    padding: 0rem 2rem; }
+    body main h1 {
+      text-align: center;
+      font-family: "Rubik Mono One", sans-serif;
+      padding: 4rem 0rem; }
+    body main ol {
+      list-style: none; }
+    body main #pokedex {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (minmax(14rem, 1fr))[auto-fit];
+          grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+      grid-gap: 2rem; }
+      body main #pokedex .card {
+        border-radius: .2rem;
+        -webkit-box-shadow: 0 0 3px 0px;
+                box-shadow: 0 0 3px 0px;
+        padding-bottom: 1rem; }
+        body main #pokedex .card .card-title {
+          text-transform: uppercase;
+          padding-left: 1rem; }
+          body main #pokedex .card .card-title h2 {
+            margin: 0; }
+        body main #pokedex .card .card-subtitle {
+          color: #9ea0a3;
+          padding: .5rem 0rem .5rem 1rem; }
+        body main #pokedex .card .card-image {
+          border-top-left-radius: .2rem;
+          border-top-right-radius: .2rem;
+          background: #eeeff1;
+          width: 100%;
+          height: auto; }
+      body main #pokedex .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background: #eeeff1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        opacity: .9; }
+        body main #pokedex .popup button {
+          all: unset;
+          position: absolute;
+          top: 2rem;
+          right: 2rem;
+          font-size: 2rem;
+          font-weight: 700; }
+        body main #pokedex .popup .popup-image {
+          width: 40vw;
+          height: auto;
+          margin: 0 auto; }
+        body main #pokedex .popup .popup-title {
+          text-transform: uppercase;
+          margin-bottom: 1rem; }
+        body main #pokedex .popup .popup-subtitle {
+          color: #9ea0a3; }
+  body footer {
+    padding: 2rem 0; }
+/*# sourceMappingURL=master.css.map */

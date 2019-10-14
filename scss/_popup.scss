@@ -1,0 +1,36 @@
+.popup{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background: $clr-bg-grey;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: .9;
+      button{
+        
+        all: unset;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .popup-image{
+        width: 40vw;
+        height: auto;
+        margin: 0 auto;
+        
+      }
+      .popup-title{
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      .popup-subtitle{
+        color: $clr-text-grey;
+      }
+    }
