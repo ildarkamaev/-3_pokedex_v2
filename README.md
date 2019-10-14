@@ -10,6 +10,7 @@ For my third day I decided to update my day 1 code project and I think it's gett
 - Using asynchronous functions to fetch data from PokeAPI
 - Displaying and hiding popup using JS
 - Fetch weight and height of each Pokemon 
+- Caching data that already has been fetched so there's no need to make requests the same item multiple times
 
 ### HTML&CSS
 - Display additional information about Pokemon on click, which opens a popup
@@ -20,14 +21,17 @@ For my third day I decided to update my day 1 code project and I think it's gett
 ## What was used?
 - ES6 fancy fetch methods, promises and all that async mumbo-jumbo used to fetch data using API's
 - async await
-- HTML and CSS (SCSS of course) for building the website
+- Caching
+- SCSS for breaking css into partials
 
 ## What I learned
 - About async await functions for fetching data
 - how to create a popup using JS
+- the existence of caching requests
 
 ## What I didn't understand
 - Asyncronous functions
+- Caching functionality
 
 ## How can it be improved
 - [] Better UI
