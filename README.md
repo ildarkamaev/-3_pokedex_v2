@@ -30,9 +30,9 @@ For my third day I decided to update my day 1 code project and I think it's gett
 - Asyncronous functions
 
 ## How can it be improved
--[] Better UI
-    -[] Flipping card?
--[] Search 
--[] Fetch on scroll
--[] Realized in some SPA
--[] Display more data about selected Pokemon and show it in an interesting way
+- [] Better UI
+    - [] Flipping card?
+- [] Search 
+- [] Fetch on scroll
+- [] Realized in some SPA
+- [] Display more data about selected Pokemon and show it in an interesting way
