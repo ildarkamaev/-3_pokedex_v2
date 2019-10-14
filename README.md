@@ -13,6 +13,7 @@ For my third day I decided to update my day 1 code project and I think it's gett
 
 ### HTML&CSS
 - Display additional information about Pokemon on click, which opens a popup
+- Broke SCSS into partials for easier management
 
 
 
@@ -22,18 +23,16 @@ For my third day I decided to update my day 1 code project and I think it's gett
 - HTML and CSS (SCSS of course) for building the website
 
 ## What I learned
-- About the existance of PokeAPI
-- New way of making fetch requests
+- About async await functions for fetching data
+- how to create a popup using JS
 
 ## What I didn't understand
-- Promise all
-- JS Maps
-- How the f did it actually fetched the neccessary data
+- Asyncronous functions
 
 ## How can it be improved
-- Better UI
-    - Flipping card?
-- Search 
-- Fetch on scroll
-- Realized in some SPA
-- Display more data about selected Pokemon and show it in an interesting way
+-[] Better UI
+    -[] Flipping card?
+-[] Search 
+-[] Fetch on scroll
+-[] Realized in some SPA
+-[] Display more data about selected Pokemon and show it in an interesting way
