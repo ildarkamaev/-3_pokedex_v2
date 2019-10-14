@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Rubik+Mono+One&display=swap");
+
+$clr-bg-grey: #eeeff1;
+$clr-text-grey: #9ea0a3;
+$clr-bg-white: #fdfff7;
+
+$clr-black: #50514f;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: $clr-bg-grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  main {
+    width: calc(100vw - 8rem);
+    background: $clr-bg-white;
+    padding: 0rem 2rem;
+    h1 {
+      text-align: center;
+      font-family: "Rubik Mono One", sans-serif;
+      padding: 4rem 0rem;
+    }
+     ol {
+        list-style: none;
+      }
+    #pokedex {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+      grid-gap: 2rem;
+      // align-items: center;
+      // justify-items: center;
+     
+      .card {
+        border-radius: .2rem;
+        // outline: 3px solid red;
+        box-shadow: 0 0 3px 0px;
+        padding-bottom: 1rem;
+        
+        // padding: 1rem;
+        .card-title{
+          text-transform: uppercase;
+          h2{
+            margin: 0;
+          }
+          padding-left: 1rem;
+        }
+
+        .card-subtitle{
+          color: $clr-text-grey;
+          padding: .5rem 0rem .5rem 1rem;
+        }
+
+   
+
+        .card-image{
+          border-top-left-radius: .2rem;
+          border-top-right-radius: .2rem;
+          background: $clr-bg-grey;
+          width: 100%;
+          height: auto;
+          // margin: 0 auto;
+        }
+      }
+    .popup{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background: $clr-bg-grey;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: .9;
+      button{
+        
+        all: unset;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .popup-image{
+        width: 40vw;
+        height: auto;
+        margin: 0 auto;
+        
+      }
+      .popup-title{
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      .popup-subtitle{
+        color: $clr-text-grey;
+      }
+    }
+    }
+  }
+  footer{
+    padding: 2rem 0;
+  }
+}
